@@ -1,6 +1,6 @@
 from plyer import notification
 
-def notify(title, message):
+def system_tray_notify(title, message):
     notification.notify(
         title=title,
         message=message,

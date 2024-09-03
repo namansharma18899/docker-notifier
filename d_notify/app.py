@@ -9,7 +9,6 @@ import os
 from constants.enums import CState
 from prompt_handler import RuleEngineApp
 from rules.rules import ContainerStateRule, ResourceUtilizationRule, RuleEngine
-from services import notify
 from services.conatiner_monitoring import CMonitor
 
 

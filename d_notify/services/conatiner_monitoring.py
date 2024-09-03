@@ -45,7 +45,8 @@ class CMonitor:
                 # for container_id in removed_containers:
                 #     # print(f"Container removed: {previous_containers[container_id]} (ID: {container_id})")
                 #     notify(f'Contianer Removed: {container_id}',' ')
-                
+
+
                 self.previous_containers = current_containers
         except KeyboardInterrupt:
             print("Monitoring stopped...")
